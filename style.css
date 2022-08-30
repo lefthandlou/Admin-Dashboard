@@ -1,0 +1,103 @@
+/* Images and Icons */
+
+.profile-image {
+    width: 40px;
+    border-radius: 25px;
+}
+
+.welcome-profile-image {
+    width: 70px;
+    border-radius: 45px;
+}
+
+.dashboard-logo {
+    width: 60px;
+}
+
+.nav-icon {
+    width: 45px;
+    padding-right: 10px;
+}
+
+/* Main Grid Structure */
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(3 1fr);
+}
+
+header {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    grid-template: auto auto;
+    
+}
+
+nav {
+    grid-row: 1/4;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+/* Nested Grid Structure */
+
+.dashboard-header {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+.projects-main {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+.top-header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.user-account {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom-header {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.user-welcome {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.name-greeting {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.header-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+
+button {
+    width: 150px;
+    height: 40px;
+}
