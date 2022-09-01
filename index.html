@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Karla:wght@200;600&display=swap" rel="stylesheet"> 
+
     <title>Dashboard</title>
 </head>
 
@@ -12,27 +18,32 @@
 
     <header>
         <div class="top-header">
-            <form>
-                <label for="search">
-                    <img src="./images/magnify.png" alt="Search Icon">
-                </label>
-                <input type="search" nane="search">
-            </form>
+            <div class="search-container">
+                <div class="image-container">
+                    <img src="./images/search-svgrepo-com.svg" alt="Search Icon" class="search-icon">
+                </div>
+                <form>
+                    <label for="search"></label>
+                    <input type="search" nane="search" class="search-input">
+                </form>
+            </div>
 
             <div class="user-account">
-                    <img src="./images/bell-ring.png" alt="User Notifications" class="bell">
+                    <img src="./images/alert-svgrepo-com.svg" alt="User Notifications" class="bell">
                     <img src="./images/userprofile.jpg" alt="User Profile Picture" 
                         class="profile-image">
-                    <p class="user-name">User Name</p>
+                    <p class="user-name">Morgan Oakley</p>
             </div>
         </div>
 
         <div class="bottom-header">
             <div class="user-welcome">
-                <img src="./images/userprofile.jpg" alt="User Profile Picture" 
-                    class="welcome-profile-image">
+                <div class="image-wrapper">
+                    <img src="./images/userprofile.jpg" alt="User Profile Picture"
+                        class="welcome-profile-image">
+                </div>
                 <p class="user-greeting">Hi there, </p>
-                <p class="name-greeting">Morgan Oakely
+                <p class="name-greeting">Morgan Oakley
                     <span class="username">(@morgan)</span>
                 </p>
             </div>
@@ -47,54 +58,54 @@
 
     <nav>
         <div class="dashboard-header">
-            <img src="./images/yarn.png" alt="Dashboard Icon Yarn Basket" 
+            <img src="./images/ball-of-yarn-svgrepo-com.svg" alt="BaDashboard Icon" 
                 class="dashboard-logo">
-            <p class="dashboard">Dashboard</p>
+            <p class="dashboard-heading">Dashboard</p>
         </div>
 
         <div class="navigation">
             <ul class="top-navigation">
                 <li>
-                    <img src="./images/home.png" alt="Home Icon" class="nav-icon">
+                    <img src="./images/home-svgrepo-com.svg" alt="Home Icon" class="nav-icon">
                     Home
                 </li>
                 <li>
-                    <img src="./images/user.png" alt="User Profile Icon" class="nav-icon">
+                    <img src="./images/profile-svgrepo-com.svg" alt="User Profile Icon" class="nav-icon">
                     Profile
                 </li>
                 <li>
-                    <img src="./images/message.png" alt="Messages Icon" class="nav-icon">
+                    <img src="./images/mail-svgrepo-com.svg" alt="Messages Icon" class="nav-icon">
                     Messages
                 </li>
                 <li>
-                    <img src="./images/knitting.png" alt="Works in Progress Icon" class="nav-icon">
+                    <img src="./images/knitting-svgrepo-com.svg" alt="Works in Progress Icon" class="nav-icon">
                     Works in Progress
                 </li>
                 <li>
-                    <img src="./images/sweater.png" alt="Finished Projects Icon" class="nav-icon">
+                    <img src="./images/sweater-svgrepo-com.svg" alt="Finished Projects Icon" class="nav-icon">
                     Finished Projects
                 </li>
                 <li>
-                    <img src="./images/yarn(1).png" alt="Stash Icon" class="nav-icon">
+                    <img src="./images/yarn-svgrepo-com.svg" alt="Stash Icon" class="nav-icon">
                     Stash
                 </li>
                 <li>
-                    <img src="./images/knitting-needles.png" alt="Tools Icon" class="nav-icon">
+                    <img src="./images/knitting-neddles-needle-svgrepo-com.svg" alt="Tools Icon" class="nav-icon">
                     Tools
                 </li>
             </ul>               
 
             <ul class="bottom-navigation">
                 <li class="bottom-nav">
-                    <img src="./images/cog.png" alt="Settings Icon" class="nav-icon">
+                    <img src="./images/cog-svgrepo-com.svg" alt="Settings Icon" class="nav-icon">
                     Settings
                 </li>
                 <li class="bottom-nav">
-                    <img src="./images/help-circle.png" alt="Support Icon" class="nav-icon">
+                    <img src="./images/help-svgrepo-com.svg" alt="Support Icon" class="nav-icon">
                     Support
                 </li>
                 <li class="bottom-nav">
-                    <img src="./images/shield-check.png" alt="Privacy Icon" class="nav-icon">
+                    <img src="./images/shield-svgrepo-com.svg" alt="Privacy Icon" class="nav-icon">
                     Privacy
                 </li>
             </ul>
@@ -117,17 +128,21 @@
 
         <div class="announcements">
             <h3 class="announcements-header">Announcements</h2>
-            <div class="announcement-item">Announcement 1</div>
-            <div class="announcement-item">Announcement 2</div>
-            <div class="announcement-item">Announcement 3</div>
+            <div class="announcements-wrapper">
+                <div class="announcement-item">Announcement 1</div>
+                <div class="announcement-item">Announcement 2</div>
+                <div class="announcement-item">Announcement 3</div>
+            </div>
         </div>
 
         <div class="trending">
             <h3 class="trending-header">Trending</h2>
-            <div class="trending-user">Trending</div>
-            <div class="trending-user">Trending</div>
-            <div class="trending-user">Trending</div>
-            <div class="trending-user">Trending</div>
+            <div class="trending-wrapper">
+                <div class="trending-user">Trending</div>
+                <div class="trending-user">Trending</div>
+                <div class="trending-user">Trending</div>
+                <div class="trending-user">Trending</div>
+            </div>
         </div>
     </main>
 

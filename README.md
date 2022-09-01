@@ -1,35 +1,37 @@
 # Admin-Dashboard
 
-Sweater icon 
-<a href="https://www.flaticon.com/free-icons/sweater" title="sweater icons">Sweater icons created by Freepik - Flaticon</a>
+Admin Dashboard Project - The Odin Project
 
-Knitting icon
-<a href="https://www.flaticon.com/free-icons/knitting" title="knitting icons">Knitting icons created by ToZ Icon - Flaticon</a>
+Struggled with what icons to use for this project, but ultimately settled for SVG icons due to a number of articles saying icon fonts are bad for accessibility. Icon fonts are treated like text, making them difficult for screen readers to properly interpret; assistive fonts may replace or remove icon fonts entirely, making a webiste potentially unusable; and the icons cannot be labeled or described directly and may not have any direct surrounding context. SVGs, on the other hand, are images, can include metadata for screen readers and other accessible features, are easier to maintain as a library, and play more nicely with CSS than fonts.
 
-Stitch marker icon
-<a href="https://www.flaticon.com/free-icons/hobbies-and-free-time" title="hobbies and free time icons">Hobbies and free time icons created by Freepik - Flaticon</a>
+    Sources:
 
-Knitting needles icon
-<a href="https://www.flaticon.com/free-icons/knitting-needles" title="knitting needles icons">Knitting needles icons created by berkahicon - Flaticon</a>
+    https://www.irigoyen.dev/blog/2021/02/17/stop-using-icon-fonts/
+    https://www.youtube.com/watch?v=9xXBYcWgCHA
+    https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label
+    https://tryblackbird.com/blog/icon-fonts
 
-Yarn ball icon
-<a href="https://www.flaticon.com/free-icons/yarn" title="yarn icons">Yarn icons created by Freepik - Flaticon</a>
 
-Messages icon
-<a href="https://www.flaticon.com/free-icons/message" title="message icons">Message icons created by Phoenix Group - Flaticon</a>
 
-User icon
-<a href="https://www.flaticon.com/free-icons/profile" title="profile icons">Profile icons created by Freepik - Flaticon</a>
+All icons from svgrepo.com; attribution details below:
 
-Yarn basket icon
-<a href="https://www.flaticon.com/free-icons/wool" title="wool icons">Wool icons created by Freepik - Flaticon</a>
+MIT License
+* Alert bell; author: Microsoft
+* Help; author: vmware
+* Messages; author: halfmage
+* Profile; author: css.gg
 
-Yarn hank icon
-<a href="https://www.flaticon.com/free-icons/yarn" title="yarn icons">Yarn icons created by justicon - Flaticon</a>
+CC0 License
+* Yarn ball
+* Home
+* Knitting needles
+* Knitting
+* Search
+* Shield
+* Sweater
 
-Yarn hank single incon
-<a href="https://www.flaticon.com/free-icons/yarn" title="yarn icons">Yarn icons created by Freepik - Flaticon</a>
+PD License
+* Cog; author: fiction
 
-Bell Ring icon, Search Icon, Home Icon, Cog Icon, Support Icon, Privacy Icon
-
-material design, Google
+CC Attribution License
+* Yarn hank; author: game-icons.net
