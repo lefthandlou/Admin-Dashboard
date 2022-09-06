@@ -20,6 +20,7 @@ MIT License
 * Help; author: vmware
 * Messages; author: halfmage
 * Profile; author: css.gg
+* Cog (pink); author: developmentseed
 
 CC0 License
 * Yarn ball
@@ -29,9 +30,22 @@ CC0 License
 * Search
 * Shield
 * Sweater
+* Favorite heart
+* Share
 
 PD License
 * Cog; author: fiction
 
 CC Attribution License
 * Yarn hank; author: game-icons.net
+
+Icon color edited in editor.method.ac
+
+
+Images in Trending Section:
+
+<a href="https://www.freepik.com/free-vector/cute-turtle-sit-cartoon-animal-love-icon-concept-isolated-flat-cartoon-style_10920757.htm#query=cartoon%20animal&position=13&from_view=search">Image by catalyststuff</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/hen-with-chick-cartoon-illustration_10555268.htm#query=cartoon%20animal&position=6&from_view=search">Image by catalyststuff</a> on Freepik
+
+<a href="https://www.freepik.com/free-vector/cute-koala-sleeping-tree-cartoon-animal-nature-icon-concept-isolated-flat-cartoon-style_11579989.htm#query=cartoon%20animal&position=3&from_view=search">Image by catalyststuff</a> on Freepik
